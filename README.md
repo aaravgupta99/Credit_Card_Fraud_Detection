@@ -13,10 +13,10 @@ The ultimate goal is to protect customers from financial losses, minimize false 
 The project utilizes a dataset containing credit card transactions, which includes various features such as transaction amount, location, time, and other numerical input variables which are the result of a PCA transformation. The dataset is provided in CSV format and is split into a training set and a test set.
 
 Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. Features V1, V2, … V28 are the principal components obtained with PCA.The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
-## Required Dependancies
+## Required Dependencies
 
 
-| Dependancies | Version     | Description                |
+| Dependencies | Version     | Description                |
 | :-------- | :------- | :------------------------- |
 | `Numpy` | 1.24.3 | **Optional**. For working with arrays |
 | `Pandas` | 1.5.3 | **Required**. For dataframes and required process |
